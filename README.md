@@ -1,143 +1,177 @@
-# [Muse Ant Design Dashboard](https://demos.creative-tim.com/muse-ant-design-dashboard/#/dashboard?ref=readme-madd)
+# ProjectX: Community Empowerment Exchange (CEE)
+### Created by Philip Titus © 2024
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/muse-ant-design-dashboard.svg)](https://github.com/creativetimofficial/muse-ant-design-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/material-tailwind-dashboard-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/muse-ant-design-dashboard/issues?q=is%3Aissue+is%3Aclosed)
+Welcome to **ProjectX: Community Empowerment Exchange (CEE)**, a dynamic platform built on React and Django that fosters a community-driven experience, where users can trade skills, offer mutual aid, and collaborate on larger community projects. Our goal is to enable neighbors and communities to help one another through time, skills, resources, or funds, while nurturing trust and engagement at a local level.
 
-![Image](https://s3.amazonaws.com/creativetim_bucket/products/496/original/opt_md_ant_react_thumbnail.jpg?1629182839)
+---
 
-Muse Ant Design Dashboard is a _free_ Admin Template based on two popular front-end technologies: _Ant Design & React_. It was built to simplify the developer's work and is comes with a fresh design inspired by Ant Design. All its components are built to fit perfectly with each other, while aligning to the Ant Design concepts.
+## Core Concept
+ProjectX is a **multi-faceted platform** designed to bring people together by encouraging neighbors to assist one another. Users can:
 
-Save weeks of time and build your perfect dashboard with this powerful template! It features 120 fully coded components and 7 example pages if you want to get inspiration or just show something directly to your clients. This beautiful admin also comes with 5 color filter choices for both the sidebar and the cards (blue, green, red, yellow and black), an option to have a transparent or fill sidebar and an option to have a fixed navbar.
+- Trade skills through a **barter system**.
+- Offer and request **neighborhood assistance**.
+- **Crowdfund and collaborate** on community projects.
+- Provide and receive **mutual aid** for necessities.
 
-## Table of Contents
+Our platform emphasizes localized assistance while keeping the door open for broader engagements across the network, building stronger and more supportive communities.
 
-- [Versions](#versions)
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Documentation](#documentation)
-- [File Structure](#file-structure)
-- [Browser Support](#browser-support)
-- [Resources](#resources)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions)
-- [Licensing](#licensing)
-- [Useful Links](#useful-links)
+---
 
-## Versions
+## Key Features
 
-[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/material-tailwind-dashboard-react?ref=readme-madd)
-React
+### 1. **Skill Exchange Barter**
+- Users can **offer or request services** (e.g., graphic design, coding, tutoring, etc.) in exchange for other services.
+- Each user has a profile listing **offered skills** and **desired services**. Users can **negotiate trades** directly through the app.
+  
+   **Example**: "I’ll design your website in exchange for help with marketing."
 
-## Demo
+### 2. **Neighborhood Assistance**
+- A **location-based board** where users can post small tasks they need help with, such as running errands, borrowing tools, or getting advice.
+- A **proximity filter** allows users to find and offer help nearby.
 
-- [Dashboard](https://demos.creative-tim.com/muse-ant-design-dashboard/#/dashboard?ref=readme-madd)
-- [Tables](https://demos.creative-tim.com/muse-ant-design-dashboard/#/tables?ref=readme-madd)
-- [Billing](https://demos.creative-tim.com/muse-ant-design-dashboard/#/billing?ref=readme-madd)
-- [RTL](https://demos.creative-tim.com/muse-ant-design-dashboard/#/rtl?ref=readme-madd)
-- [Profile](https://demos.creative-tim.com/muse-ant-design-dashboard/#/profile?ref=readme-madd)
-- [Sign In](https://demos.creative-tim.com/muse-ant-design-dashboard/#/sign-in?ref=readme-madd)
-- [Sign Up](https://demos.creative-tim.com/muse-ant-design-dashboard/#/sign-up?ref=readme-madd)
+   **Example**: "Need someone to walk my dog tomorrow."
 
-## Quick start
+### 3. **Crowdfunding & Task Completion Hybrid**
+- Users can **post community projects** that need both funding and manual help. Others can contribute funds or volunteer their time.
+- A **fund button** enables contributions directly within the platform.
 
-Quick start options:
+   **Example**: "Raising funds to build a community garden. We also need volunteers for planting."
 
-- Download from [Creative Tim](https://www.creative-tim.com/product/muse-ant-design-dashboard?ref=readme-madd).
+### 4. **Community Assistance Request Board**
+- A simple community board for **one-time quick favors** (e.g., "Can anyone recommend a plumber?" or "Help assemble a bookshelf").
 
-## Terminal Commands
+### 5. **Mutual Aid Network**
+- A dedicated space where users can post **requests for financial help** or **donations of resources** (e.g., groceries, supplies).
+- Optional **anonymous posting** allows for discretion when asking for assistance.
 
-1. Download and Install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/).
-2. Navigate to the root / directory and run npm install or (yarn install, if you're using yarn) to install our local dependencies.
+   **Example**: "I need help with groceries this week, and I have some extra books to donate."
 
-## Documentation
+---
 
-Muse Ant Design Dashboard build using Material Tailwind and the documentation of Material Tailwind is hosted at [website](https://demos.creative-tim.com/muse-ant-design-dashboard/#/docs/overview?ref=readme-madd).
+## AI Integration
 
-### What's included
+### 1. **AI Matching & Recommendation System**
+- **AI analyzes** user profiles, skills, and tasks to recommend **matches** between those needing help and those offering it.
+  
+   **Example**: "Based on your profile, here are 3 people nearby looking for graphic design help in exchange for web development."
 
-Within the download you'll find the following directories and files:
+### 2. **AI Task Categorization and Priority Sorting**
+- Using **Natural Language Processing (NLP)**, AI analyzes posts and automatically places them in the correct sections (e.g., barter, mutual aid).
+- AI also **prioritizes urgent requests**, moving tasks that need immediate attention to the top of the feed.
 
-```
-Muse Ant Design Dashboard
-    ├── muse-ant-design-dashboard
-    │   ├── public
-    │   │   ├── index.html
-    │   │   ├── favicon.png
-    │   │   ├── minifest.json
-    │   │   └── robots.txt
-    │   ├── src
-    │   │   ├── assets
-    │   │   │   ├── images
-    │   │   │   └── styles
-    │   │   ├── components
-    │   │   │   ├── chart
-    │   │   │   └── layout
-    │   │   ├── pages
-    │   │   │   ├── Billing.js
-    │   │   │   ├── Home.js
-    │   │   │   ├── Profile.js
-    │   │   │   ├── Rtl.js
-    │   │   │   ├── SignIn.js
-    │   │   │   ├── SignUp.js
-    │   │   │   └── Tables.js
-    │   │   ├── App.js
-    │   │   └── index.js
-    │   ├── CHANGELOG.md
-    │   ├── LICENSE
-    │   ├── package.json
-    │   ├── README.md
-    │   ├── .env
-```
+### 3. **AI for Smart Task & Project Suggestions**
+- AI can analyze community trends to **suggest meaningful activities** for users.
 
-## Browser Support
+   **Example**: "Many people in your neighborhood need financial help for school supplies—would you like to start a fundraiser?"
 
-At present, we officially aim to support the last two versions of the following browsers:
+---
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
+## Tech Stack & Cloud Integration
 
-## Resources
+### 1. **AWS Cognito**
+   - **Authentication and access control**, including sign-in, sign-up, and multi-factor authentication (MFA).
+   
+### 2. **Amazon Rekognition**
+   - **User profile verification** and analysis of images in community projects or donations.
 
-- [Live Preview](https://demos.creative-tim.com/muse-ant-design-dashboard/#/?ref=readme-madd)
-- [Download Page](https://www.creative-tim.com/product/material-tailwind-dashboard-react?ref=readme-madd)
-- Documentation is [here](https://material-tailwind.com/documentation/quick-start?ref=readme-madd)
-- [License Agreement](https://www.creative-tim.com/license?ref=readme-madd)
-- [Support](https://www.creative-tim.com/contact-us?ref=readme-madd)
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/muse-ant-design-dashboard/issues)
+### 3. **AWS EC2**
+   - For handling **scalable computing** in the cloud environment.
 
-## Reporting Issues
+### 4. **Firebase (GCP Service)**
+   - **Real-time database** management (Firestore) and **push notifications** (Cloud Messaging).
 
-We use GitHub Issues as the official bug tracker for the Muse Ant Design Dashboard. Here are some advices for our users that want to report an issue:
+### 5. **AWS S3**
+   - For **storing images** or other media related to user posts and community projects.
 
-1. Make sure that you are using the latest version of the Muse Ant Design Dashboard. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/muse-ant-design-dashboard?ref=readme-madd).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
+### 6. **Google Maps Platform**
+   - For the **Neighborhood Assistance** feature, allowing users to view nearby requests based on geolocation.
 
-## Technical Support or Questions
+### 7. **Google Cloud Functions**
+   - For **event-driven tasks** like sending notifications, handling requests, or automating recommendations.
 
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us?ref=readme-madd) instead of opening an issue.
+---
 
-## Licensing
+## User Flow
 
-- Copyright 2021 [Creative Tim](https://www.creative-tim.com?ref=readme-madd)
-- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-madd)
+1. **Create an Account**: 
+   - Users fill out a profile specifying their skills for barter, the help they can offer, and the types of assistance they need.
 
-## Useful Links
+2. **Browse the Community Hub**:
+   - The feed displays categorized offers, requests, and projects:
+     - **Skill Trades**
+     - **Local Tasks/Errands**
+     - **Community Projects**
+     - **Mutual Aid**
+     - **Quick Help Board**
 
-- [More products](https://www.creative-tim.com/templates?ref=readme-madd) from Creative Tim
+3. **Post & Help**:
+   - Users can **post requests** or **offer assistance**. They can negotiate and finalize trades or mark tasks as complete once finished.
 
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
+4. **Rate and Review**:
+   - After a task or trade is completed, users can **rate each other**, building a trusted and engaged community.
 
-- [Freebies](https://www.creative-tim.com/templates/free?ref=readme-madd) from Creative Tim
+---
 
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-madd) (earn money)
+## Setup Instructions
 
-##### Social Media
+Follow these steps to get the **backend repository** up and running on your local machine:
 
-Twitter: <https://twitter.com/CreativeTim>
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/philiptitus/ProjectX.git
+   ```
+   
+2. **Navigate into the Project Directory**:
+   ```bash
+   cd ProjectX
+   ```
 
-Facebook: <https://www.facebook.com/CreativeTim>
+3. **Create and Activate a Virtual Environment**:
+   ```bash
+   python3 -m venv env
+   source env/bin/activate  # For MacOS/Linux
+   # or
+   env\Scripts\activate  # For Windows
+   ```
 
-Dribbble: <https://dribbble.com/creativetim>
+4. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Google+: <https://plus.google.com/+CreativetimPage>
+5. **Set up the Database**:
+   ```bash
+   python manage.py migrate
+   ```
 
-Instagram: <https://instagram.com/creativetimofficial>
+6. **Run the Development Server**:
+   ```bash
+   python manage.py runserver
+   ```
+
+7. The **frontend** can be accessed and set up by visiting:
+   ```bash
+   https://github.com/philiptitus/xproj.git
+   ```
+
+### API Documentation:
+- The backend includes a **Django REST Framework** API that serves the frontend.
+- For more information about API endpoints, check out the **API Documentation** once the backend server is running at `/api/docs/`.
+
+---
+
+## Status & Development
+
+ProjectX is currently in **steady development**, with new features being added regularly. You can check the **latest progress** by visiting our repository:
+
+- Backend: [ProjectX Backend Repo](https://github.com/philiptitus/ProjectX.git)
+- Frontend: [xproj Frontend Repo](https://github.com/philiptitus/xproj.git)
+
+Stay tuned as we continue to expand the app's capabilities and introduce new AI-driven features.
+
+---
+
+## License & Copyright
+© Philip Titus 2024
+
+All rights reserved.
